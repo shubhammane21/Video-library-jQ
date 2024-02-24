@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Tutorial</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../src/styles/index.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../src/scripts/index.js">
+    </script>
+</head>
+<body class="container-fluid">
+    <header>
+        <nav class="p-2 text-white d-flex justify-content-between">
+            <div class="h2"><a href="index.html">Tech Videos</a></div>
+            <div class="fs-5">
+                <span class="me-4"><a href="index.html">Home</a></span>
+                <span class="me-4"><a>Videos</a></span>
+                <span class="me-4"><a>About</a></span>
+                <span class="me-4"><a>Contact</a></span>
+            </div>
+            <div class="fs-5">
+                <span class="bi bi-person-fill"> <a id="signin">Signin</a></span>
+            </div>
+        </nav>
+        <div class="text-white text-center mt-4 justify-content-center d-flex">
+            <div>
+                <div class="h1">Learn Coding</div>
+            <p>Java, C#, JavaScript, PHP, HTML..</p>
+            <div class="mt-3 input-group" id="emailContainer">
+                <input class="form-control" id="Email" type="email" placeholder="Your email address"> 
+                <button class="btn btn-warning" id="btnGetStarted">
+                    Get Started <span class="bi bi-chevron-right"></span>
+                </button>
+            </div>
+            <div id="error" class="text-white fw-bold fs-5"></div>
+            <div class="mt-3 input-group" id="passwordContainer">
+                <input class="form-control" id="Password" type="password" placeholder="Your password"> 
+                <button class="btn btn-warning" id="btnSignIn">
+                    Signin <span class="bi bi-chevron-right"></span>
+                </button>
+            </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="box">
+            <img src="images/card-1.jpg" class="card-img-top">
+            <div>
+                <button class="btn btn-dark w-100" id="btnJoin">Join Course</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/card-2.jpg" class="card-img-top">
+            <div>
+                <button class="btn btn-dark w-100" id="btnJoin">Join Course</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/card-3.jpg" class="card-img-top">
+            <div>
+                <button class="btn btn-dark w-100" id="btnJoin">Join Course</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/card-4.jpg" class="card-img-top">
+            <div>
+                <button class="btn btn-dark w-100" id="btnJoin">Join Course</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
